@@ -1,0 +1,47 @@
+# Локальные данные и все исходные запуски
+/data/
+/outputs/
+
+# Окружение и кэши
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Веса и промежуточные состояния
+*.pt
+*.pth
+*.ckpt
+
+# Финальная модель
+!/weights/best_model.pt
+
+# Временные файлы и архивы
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.zst
+*.7z
+*.rar
+.DS_Store
+
+# Локальные настройки и служебные заметки
+.env
+.env.*
+.idea/
+.vscode/
+/REPORT_OUTLINE.md
